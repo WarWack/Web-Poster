@@ -128,7 +128,7 @@ class Ball {
       ellipse(this.position.x, this.position.y, this.r * 2, this.r * 2);
     }
   }
-  let balls = [new Ball(200, 400, 200), new Ball(700, 400, 120), new Ball(200, 400, 50), new Ball(500, 400, 75)];
+  let balls = [new Ball(200, 400, 180), new Ball(700, 400, 120), new Ball(200, 400, 50), new Ball(500, 400, 75)];
   console.log(balls);
   function setup() {
     createCanvas(1220, 650);
